@@ -115,7 +115,7 @@ class ModelsCommand extends Command
     protected $write_model_magic_where;
     protected $write_model_relation_count_properties;
     protected $write_model_relation_exists_properties;
-    public $properties = [];
+    protected $properties = [];
     protected $methods = [];
     protected $write = false;
     protected $write_mixin = false;
